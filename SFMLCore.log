@@ -1,0 +1,26 @@
+﻿Build started 18-1-2016 17:53:11.
+     1>Project "D:\_Projects\SFMLCore\SFMLCore.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"D:\_Projects\SFMLCore\packages\sfml-graphics.2.3.2.0\build\native\../..//build/native/include/" /I"D:\_Projects\SFMLCore\packages\sfml-window.2.3.2.0\build\native\../..//build/native/include/" /I"D:\_Projects\SFMLCore\packages\sfml-audio.2.3.2.0\build\native\../..//build/native/include/" /I"D:\_Projects\SFMLCore\packages\sfml-network.2.3.2.0\build\native\../..//build/native/include/" /I"D:\_Projects\SFMLCore\packages\sfml-system.2.3.2.0\build\native\../..//build/native/include/" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D HAS_SFML /D HAS_SFML /D HAS_SFML /D HAS_SFML /D HAS_SFML /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\SFMLCore.pch" /Fo"D:\_Projects\SFMLCore\Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt LuaController.cpp Stage.cpp
+         LuaController.cpp
+         Stage.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\_Projects\SFMLCore\Release\SFMLCore.exe" /INCREMENTAL:NO /NOLOGO "D:\_Projects\SFMLCore\packages\sfml-graphics.2.3.2.0\build\native\../..//build/native/lib/Win32\v140\Release\dynamic\sfml-graphics.lib" "D:\_Projects\SFMLCore\packages\sfml-window.2.3.2.0\build\native\../..//build/native/lib/Win32\v140\Release\dynamic\sfml-window.lib" "D:\_Projects\SFMLCore\packages\sfml-audio.2.3.2.0\build\native\../..//build/native/lib/Win32\v140\Release\dynamic\sfml-audio.lib" "D:\_Projects\SFMLCore\packages\sfml-network.2.3.2.0\build\native\../..//build/native/lib/Win32\v140\Release\dynamic\sfml-network.lib" "D:\_Projects\SFMLCore\packages\sfml-system.2.3.2.0\build\native\../..//build/native/lib/Win32\vorbisfile.lib" "D:\_Projects\SFMLCore\packages\sfml-system.2.3.2.0\build\native\../..//build/native/lib/Win32\vorbisenc.lib" "D:\_Projects\SFMLCore\packages\sfml-system.2.3.2.0\build\native\../..//build/native/lib/Win32\vorbis.lib" "D:\_Projects\SFMLCore\packages\sfml-system.2.3.2.0\build\native\../..//build/native/lib/Win32\openal32.lib" "D:\_Projects\SFMLCore\packages\sfml-system.2.3.2.0\build\native\../..//build/native/lib/Win32\ogg.lib" "D:\_Projects\SFMLCore\packages\sfml-system.2.3.2.0\build\native\../..//build/native/lib/Win32\jpeg.lib" "D:\_Projects\SFMLCore\packages\sfml-system.2.3.2.0\build\native\../..//build/native/lib/Win32\freetype.lib" "D:\_Projects\SFMLCore\packages\sfml-system.2.3.2.0\build\native\../..//build/native/lib/Win32\flac.lib" "D:\_Projects\SFMLCore\packages\sfml-system.2.3.2.0\build\native\../..//build/native/lib/Win32\v140\Release\dynamic\sfml-system.lib" "D:\_Projects\SFMLCore\packages\sfml-system.2.3.2.0\build\native\../..//build/native/lib/Win32\v140\Release\sfml-main.lib" lua5.2.lib luac.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\_Projects\SFMLCore\Release\SFMLCore.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\_Projects\SFMLCore\Release\SFMLCore.lib" /MACHINE:X86 /SAFESEH D:\_Projects\SFMLCore\Release\Button.obj
+         D:\_Projects\SFMLCore\Release\ButtonFactory.obj
+         D:\_Projects\SFMLCore\Release\GameObject.obj
+         D:\_Projects\SFMLCore\Release\LuaController.obj
+         D:\_Projects\SFMLCore\Release\SFMLCore.obj
+         D:\_Projects\SFMLCore\Release\Stage.obj
+         D:\_Projects\SFMLCore\Release\stdafx.obj
+         D:\_Projects\SFMLCore\Release\Textfield.obj
+         Generating code
+         7 of 487 functions ( 1.4%) were compiled, the rest were copied from previous compilation.
+           1 functions were new in current compilation
+           3 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         SFMLCore.vcxproj -> D:\_Projects\SFMLCore\Release\SFMLCore.exe
+     1>Done Building Project "D:\_Projects\SFMLCore\SFMLCore.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.06
